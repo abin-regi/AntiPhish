@@ -106,6 +106,4 @@ We welcome all contributions!
 
 MIT © [abin-regi]
 
-> *(You can customize license terms and replace author as needed)*
-
 ---
