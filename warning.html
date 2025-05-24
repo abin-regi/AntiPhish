@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'">
+  <title>⚠️ Phishing Warning</title>
+  <link rel="stylesheet" href="warning.css">
+</head>
+<body>
+  <div class="warning-container">
+    <h1>⚠️ Warning: Potential Phishing Attempt</h1>
+    <p>The site you're trying to visit may be dangerous:</p>
+    <p id="dangerous-url" class="url-display"></p>
+    
+    <div id="suggested-domain-container">
+      <p>Did you mean to visit:</p>
+      <div class="trusted-domain-row">
+        <input type="text" id="trusted-domain" readonly>
+        <button id="visitTrustedButton" class="button trusted-button">Visit</button>
+      </div>
+    </div>
+
+    <div class="warning-text">
+      <p>This website appears to be imitating a legitimate site.</p>
+      <p>Continuing may put your personal information at risk.</p>
+    </div>
+    
+    <div class="button-container">
+      <button id="backButton" class="button back-button">Go Back (Recommended)</button>
+      <button id="proceedButton" class="button proceed-button">Continue Anyway (Unsafe)</button>
+    </div>
+  </div>
+  <script src="warning.js"></script>
+</body>
+</html> 
