@@ -107,7 +107,7 @@ We welcome all contributions!
 This project is source-visible but not open-source.  
 You may view the source code for learning or personal reference, but you may not copy, distribute, or reuse it in any form without the author's permission.
 
-Copyright (c) 2025 abin-regi. All rights reserved.
+Copyright (c) 2025 abin-regi, Anandu biny, Aby Shajan. All rights reserved.
 
 
 
