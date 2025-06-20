@@ -104,6 +104,9 @@ We welcome all contributions!
 
 ## 📜 License
 
-MIT © [abin-regi]
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
 ---
